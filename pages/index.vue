@@ -12,6 +12,10 @@
     <p>-
       <router-link to="redirect-middleware">redirect with middleware</router-link>
     </p>
+    <p>-
+      <router-link to="redirect-server">redirect on server-side</router-link>
+    </p>
+
 
     <h2>Server side mode using "a"</h2>
     <p>
@@ -22,6 +26,9 @@
     </p>
     <p>
       - <a href="/redirect-middleware">redirect with middleware</a>
+    </p>
+    <p>
+      - <a href="/redirect-server">redirect on server-side</a>
     </p>
 
     <p class="bold">You show this error :</p>
