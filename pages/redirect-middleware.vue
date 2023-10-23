@@ -9,7 +9,7 @@ definePageMeta({
       } catch (err) {
         console.log('redirect to homepage')
 
-        await navigateTo('/', { redirectCode: 301 })
+        return navigateTo('/', { redirectCode: 301 })
       }
     },
   ],
