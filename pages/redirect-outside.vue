@@ -2,7 +2,9 @@
 const redirect = async () => {
   console.log('redirect to homepage')
 
-  await navigateTo('/', { redirectCode: 301 })
+  return navigateTo('/', { redirectCode: 301 })
+  // return await navigateTo('/', { redirectCode: 301 })
+  // await navigateTo('/', { redirectCode: 301 })
 }
 
 const { data, error } = await useAsyncData('toto', async () => {
